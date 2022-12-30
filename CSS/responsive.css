@@ -1,0 +1,40 @@
+@media  screen and (max-width: 900px) {
+    body{
+        overflow: hidden;
+    }
+
+    header{
+        height: 25vh;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .list{
+        transform: translateX(-205px);
+    }
+    nav ul li{
+        padding-left: -525px;
+        margin: 0px 0px 0px 5px;
+    }
+    
+    .logo{
+        margin: 15px 25px 0px 65px;
+    
+    }
+    .search-bar{
+        margin-top: 65px;
+        margin-left: -195px;
+        margin-bottom: 15px;
+        width: 27vh;
+
+    }
+
+    .cards{
+        display: inline-block;
+    }
+}
+
+
+

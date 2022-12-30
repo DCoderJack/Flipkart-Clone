@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+:root {
+    background: #2874f0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 9vh;
+    background-color: #2874f0;
+    /* display: flex; */
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+nav ul{
+    height: 9vh;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 25px;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.list{
+    display: inline-flex;
+}
+.button{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.search-bar{
+    padding: 15px 3px 0px 25px;
+}
+
+.search-bar{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input{
+    width: 91vh;
+    height: 5vh;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.search{
+    margin: 0px 11px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+main{
+    min-height: calc(100vh - 9vh - 5vh);
+    background-color: white;
+}
+
+.container{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.slider{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* overflow: scroll; */
+}
+.carditems{
+    /* background: antiquewhite; */
+    margin: 15px;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 5vh;
+    background-color:  var(#2874f0);
+    color: white;
+}
+
+
+
+
+
